@@ -21,4 +21,5 @@ Clique leverages a variety of cryptographic techniques to enhance security, priv
 |Provenance | | |
 |Attestation | | |
 |Oracle | | |
+|(SSI) | | |
 
