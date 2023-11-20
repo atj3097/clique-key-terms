@@ -16,10 +16,12 @@ Clique leverages a variety of cryptographic techniques to enhance security, priv
 | DCAP (Data Center Attestation Primitives) | Technologies for verifying the integrity of hardware in data centers. | Making sure the big computers in a data center are healthy and trustworthy. |  |
 | Remote Attestation | Verifying a device's integrity and authenticity remotely. | Checking from afar if a device is working correctly and hasn’t been messed with. |  |
 | ORAM (Oblivious RAM) | Obfuscating access patterns to storage to secure data retrieval and storage. | Hiding the tracks of where data is kept or found so no one can tell what you’re storing or getting. | Employed as part of common TEE hardening techniques. |
-|Sybil Resistant | | | 
-|TLS certificate | | |
-|Provenance | | |
-|Attestation | | |
-|Oracle | | |
-|(SSI) | | |
+| Sybil Resistant | Measures to prevent Sybil attacks, where a single adversary can create multiple fake identities. | Clique uses Sybil resistance checks for applications like tiered NFT systems and robust governance structures&#8203;``【oaicite:7】``&#8203;. |
+| TLS Certificate | A digital certificate used to provide authentication and secure communication over a network. | Clique uses TLS certificates for verifying data provenance and ensuring secure data transmission&#8203;``【oaicite:6】``&#8203;. |
+| Provenance | The origin or source of something, demonstrating the history of ownership or authenticity of an item or data. | Clique's Provenance product provides deep data insights, helping projects understand and manage communities, with features for decentralizing provenance further&#8203;``【oaicite:5】``&#8203;. |
+| Attestation | An assertion or certification of some fact or property. | Clique allows the creation of attestations about users' off-chain behavior, which can be put on major blockchain layers&#8203;``【oaicite:4】``&#8203;&#8203;``【oaicite:3】``&#8203;. |
+| Oracle | A bridge between blockchains and external systems, providing external data to the blockchain. | Clique uses oracles for identity verification, ensuring data integrity and provenance&#8203;``【oaicite:2】``&#8203;. |
+| SSI (Self-Sovereign Identity) | A model for managing digital identities in which an individual has sole ownership over the ability to control their identity records. | Not explicitly detailed in the provided documents. |
+| Membership Proofs | A type of zero-knowledge proof used to demonstrate membership in a group without revealing individual identity. | Clique uses membership proofs for anonymous group or set membership verification&#8203;``【oaicite:1】``&#8203;. |
+| Query Proofs | A cryptographic tool to maintain confidentiality while querying and verifying identity-related data. | Clique employs query proofs for confidential identity queries, ensuring data privacy and interoperability&#8203;``【oaicite:0】``&#8203;. |
 
