@@ -1,6 +1,6 @@
 # Clique Glossary
 Clique leverages a variety of cryptographic techniques to enhance security, privacy, and efficiency in its solutions. The table below outlines key cryptographic terms, provides a simple explanation for each, and describes how these technologies are utilized in Clique's ecosystem. This information aims to clarify the complex technologies behind Clique and demonstrate their practical applications in real-world scenarios.
-| Term | Explanation (From Clique Documentation) | Explanation (ELI5) | How Clique Uses This Tech |
+| Term | Explanation (From Clique Documentation) | Explain to me like I'm 5 (ELI5) | How Clique Uses This Tech |
 |------|------------------------------------------|---------------------|---------------------------|
 | ZKP (Zero-Knowledge Proofs) | A method allowing one party to prove they know a value without revealing the value itself. | Like showing you have a hidden toy without taking it out of the box. | Clique uses ZKPs for integrity checks, ensuring data hasn't been tampered with, and for on-chain storage of proofs and attestations. |
 | MPC (Multi-Party Computation) | Enables parties to jointly compute a function over their inputs while keeping these inputs private. | Like solving a puzzle together, but no one sees each other’s pieces. | |
